@@ -10,15 +10,15 @@ namespace ConsoleApp1
             string name = Console.ReadLine();
             Console.WriteLine("Введите симовол");
             char symbol = Convert.ToChar(Console.ReadLine());
+            name = symbol + name +symbol;
 
-            for (int i = 0; i < name.Length+2; i++)
+            for (int i = 0; i < name.Length; i++)
             {
                 Console.Write(symbol);
             }
             Console.WriteLine();
-            Console.WriteLine(symbol+name+symbol);
-
-            for (int i = 0; i < name.Length + 2; i++)
+            Console.WriteLine(name);
+            for (int i = 0; i < name.Length; i++)
             {
                 Console.Write(symbol);
             }
