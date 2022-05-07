@@ -8,19 +8,17 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Введите имя");
             string name = Console.ReadLine();
+            string border = "";
             Console.WriteLine("Введите симовол");
             char symbol = Convert.ToChar(Console.ReadLine());
-            name = symbol + name +symbol;
-
+            name = symbol + name + symbol;
             for (int i = 0; i < name.Length; i++)
             {
-                Console.Write(symbol);
+                border += symbol;
             }
-            Console.WriteLine($"\n{name}");
-            for (int i = 0; i < name.Length; i++)
-            {
-                Console.Write(symbol);
-            }
+            Console.WriteLine(border);
+            Console.WriteLine(name);
+            Console.WriteLine(border);
         }
     }
 }

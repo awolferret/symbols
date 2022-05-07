@@ -11,3 +11,4 @@ C:\Users\Artem\git\symbols\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\Conso
 C:\Users\Artem\git\symbols\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
 C:\Users\Artem\git\symbols\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
 C:\Users\Artem\git\symbols\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache
+C:\Users\Artem\git\symbols\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.AssemblyReference.cache
