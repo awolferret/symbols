@@ -12,10 +12,12 @@ namespace ConsoleApp1
             Console.WriteLine("Введите симовол");
             char symbol = Convert.ToChar(Console.ReadLine());
             name = symbol + name + symbol;
+
             for (int i = 0; i < name.Length; i++)
             {
                 border += symbol;
             }
+
             Console.WriteLine(border);
             Console.WriteLine(name);
             Console.WriteLine(border);
