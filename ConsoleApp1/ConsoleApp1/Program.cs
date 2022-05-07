@@ -17,6 +17,7 @@ namespace ConsoleApp1
             }
             Console.WriteLine();
             Console.WriteLine(symbol+name+symbol);
+
             for (int i = 0; i < name.Length + 2; i++)
             {
                 Console.Write(symbol);
